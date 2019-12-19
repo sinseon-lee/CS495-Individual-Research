@@ -1,4 +1,4 @@
-# GStreamer-Tutorial
+# CS495-Individual-Research
 CS495 Individual Research
 2019 Fall
 NMAIL(Neuro-Machine Augmented Intelligence Lab) in KAIST

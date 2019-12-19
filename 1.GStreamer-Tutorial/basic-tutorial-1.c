@@ -6,7 +6,7 @@ int main (int argc, char *argv[])
     GstBus *bus;
     GstMessage *msg;
 
-    /* INitialize GStreamer */
+    /* Initialize GStreamer */
     gst_init (&argc, &argv);
 
     /* Build the pipeline */

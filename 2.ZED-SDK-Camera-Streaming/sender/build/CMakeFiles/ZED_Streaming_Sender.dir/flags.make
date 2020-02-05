@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=c++11 -g -O3
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/usr/local/cuda-10.0/include -I/usr/local/zed/include -I/home/kyuyeong/Desktop/sender/include 
+CXX_INCLUDES = -I/usr/local/cuda-10.0/include -I/usr/local/zed/include -I/home/kyuyeong/Desktop/CS495-Individual-Research/2.ZED-SDK-Camera-Streaming/sender/include 
 

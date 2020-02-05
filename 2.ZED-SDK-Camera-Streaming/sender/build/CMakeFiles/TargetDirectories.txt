@@ -1,3 +1,3 @@
-/home/kyuyeong/Desktop/sender/build/CMakeFiles/rebuild_cache.dir
-/home/kyuyeong/Desktop/sender/build/CMakeFiles/ZED_Streaming_Sender.dir
-/home/kyuyeong/Desktop/sender/build/CMakeFiles/edit_cache.dir
+/home/kyuyeong/Desktop/CS495-Individual-Research/2.ZED-SDK-Camera-Streaming/sender/build/CMakeFiles/rebuild_cache.dir
+/home/kyuyeong/Desktop/CS495-Individual-Research/2.ZED-SDK-Camera-Streaming/sender/build/CMakeFiles/ZED_Streaming_Sender.dir
+/home/kyuyeong/Desktop/CS495-Individual-Research/2.ZED-SDK-Camera-Streaming/sender/build/CMakeFiles/edit_cache.dir

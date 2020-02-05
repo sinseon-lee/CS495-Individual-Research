@@ -1,4 +1,4 @@
-# Install script for directory: /home/kyuyeong/Desktop/sender
+# Install script for directory: /home/kyuyeong/Desktop/CS495-Individual-Research/2.ZED-SDK-Camera-Streaming/sender
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/kyuyeong/Desktop/sender/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/kyuyeong/Desktop/CS495-Individual-Research/2.ZED-SDK-Camera-Streaming/sender/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

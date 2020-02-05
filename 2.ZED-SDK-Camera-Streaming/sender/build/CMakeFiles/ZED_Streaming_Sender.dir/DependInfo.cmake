@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/kyuyeong/Desktop/sender/src/main.cpp" "/home/kyuyeong/Desktop/sender/build/CMakeFiles/ZED_Streaming_Sender.dir/src/main.o"
+  "/home/kyuyeong/Desktop/CS495-Individual-Research/2.ZED-SDK-Camera-Streaming/sender/src/main.cpp" "/home/kyuyeong/Desktop/CS495-Individual-Research/2.ZED-SDK-Camera-Streaming/sender/build/CMakeFiles/ZED_Streaming_Sender.dir/src/main.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

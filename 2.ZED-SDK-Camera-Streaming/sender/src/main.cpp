@@ -13,26 +13,26 @@ int main(int argc, char **argv) {
 
     // Set configuration parameters for the ZED
     InitParameters initParameters;
-    initParameters.camera_resolution = RESOLUTION_HD720;
+    initParameters.camera_resolution = RESOLUTION::HD720;
     initParameters.camera_fps = 60;
-    initParameters.depth_mode = DEPTH_MODE_NONE;
+    initParameters.depth_mode =	DEPTH_MODE::ULTRA;
     initParameters.sdk_verbose = true;
 
     // Open the camera
     ERROR_CODE err = zed.open(initParameters);
-    if (err != SUCCESS) {
+    if (err != ERROR_CODE::SUCCESS) {
         std::cout << toString(err) << std::endl;
         zed.close();
         return -1; // Quit if an error occurred
     }
 
     sl::StreamingParameters stream_params;
-    stream_params.codec = sl::STREAMING_CODEC_HEVC;
+    stream_params.codec = STREAMING_CODEC::H265;
     stream_params.bitrate = 6000;
     if(argc > 1) stream_params.port = atoi(argv[1]);
 
     err = zed.enableStreaming(stream_params);
-    if (err != SUCCESS) {
+    if (err != ERROR_CODE::SUCCESS) {
         std::cout << "Streaming initialization error. " << toString(err) << std::endl;
         zed.close();
         return -2;
@@ -44,7 +44,7 @@ int main(int argc, char **argv) {
 
     int fc = 0;
     while (!exit_app) {
-        if (zed.grab() == SUCCESS) {
+        if (zed.grab() == ERROR_CODE::SUCCESS) {
             sl::sleep_ms(1);
             fc++;
         }

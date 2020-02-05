@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/kyuyeong/Desktop/receiver/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kyuyeong/Desktop/CS495-Individual-Research/2.ZED-SDK-Camera-Streaming/receiver/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_bd0bf/fast"
-/usr/bin/make -f CMakeFiles/cmTC_bd0bf.dir/build.make CMakeFiles/cmTC_bd0bf.dir/build
-make[1]: Entering directory '/home/kyuyeong/Desktop/receiver/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_bd0bf.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_bd0bf.dir/CheckSymbolExists.c.o   -c /home/kyuyeong/Desktop/receiver/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_bd0bf
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd0bf.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_bd0bf.dir/CheckSymbolExists.c.o  -o cmTC_bd0bf 
-CMakeFiles/cmTC_bd0bf.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_1f41f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1f41f.dir/build.make CMakeFiles/cmTC_1f41f.dir/build
+make[1]: Entering directory '/home/kyuyeong/Desktop/CS495-Individual-Research/2.ZED-SDK-Camera-Streaming/receiver/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1f41f.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_1f41f.dir/CheckSymbolExists.c.o   -c /home/kyuyeong/Desktop/CS495-Individual-Research/2.ZED-SDK-Camera-Streaming/receiver/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_1f41f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f41f.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_1f41f.dir/CheckSymbolExists.c.o  -o cmTC_1f41f 
+CMakeFiles/cmTC_1f41f.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_bd0bf.dir/build.make:97: recipe for target 'cmTC_bd0bf' failed
-make[1]: *** [cmTC_bd0bf] Error 1
-make[1]: Leaving directory '/home/kyuyeong/Desktop/receiver/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_bd0bf/fast' failed
-make: *** [cmTC_bd0bf/fast] Error 2
+CMakeFiles/cmTC_1f41f.dir/build.make:97: recipe for target 'cmTC_1f41f' failed
+make[1]: *** [cmTC_1f41f] Error 1
+make[1]: Leaving directory '/home/kyuyeong/Desktop/CS495-Individual-Research/2.ZED-SDK-Camera-Streaming/receiver/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_1f41f/fast' failed
+make: *** [cmTC_1f41f/fast] Error 2
 
-File /home/kyuyeong/Desktop/receiver/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/kyuyeong/Desktop/CS495-Individual-Research/2.ZED-SDK-Camera-Streaming/receiver/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,22 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/kyuyeong/Desktop/receiver/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kyuyeong/Desktop/CS495-Individual-Research/2.ZED-SDK-Camera-Streaming/receiver/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4ca05/fast"
-/usr/bin/make -f CMakeFiles/cmTC_4ca05.dir/build.make CMakeFiles/cmTC_4ca05.dir/build
-make[1]: Entering directory '/home/kyuyeong/Desktop/receiver/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_4ca05.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_4ca05.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_4ca05
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ca05.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_4ca05.dir/CheckFunctionExists.c.o  -o cmTC_4ca05 -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_3d385/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3d385.dir/build.make CMakeFiles/cmTC_3d385.dir/build
+make[1]: Entering directory '/home/kyuyeong/Desktop/CS495-Individual-Research/2.ZED-SDK-Camera-Streaming/receiver/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3d385.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_3d385.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3d385
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d385.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_3d385.dir/CheckFunctionExists.c.o  -o cmTC_3d385 -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_4ca05.dir/build.make:97: recipe for target 'cmTC_4ca05' failed
-make[1]: *** [cmTC_4ca05] Error 1
-make[1]: Leaving directory '/home/kyuyeong/Desktop/receiver/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_4ca05/fast' failed
-make: *** [cmTC_4ca05/fast] Error 2
+CMakeFiles/cmTC_3d385.dir/build.make:97: recipe for target 'cmTC_3d385' failed
+make[1]: *** [cmTC_3d385] Error 1
+make[1]: Leaving directory '/home/kyuyeong/Desktop/CS495-Individual-Research/2.ZED-SDK-Camera-Streaming/receiver/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_3d385/fast' failed
+make: *** [cmTC_3d385/fast] Error 2
 
 

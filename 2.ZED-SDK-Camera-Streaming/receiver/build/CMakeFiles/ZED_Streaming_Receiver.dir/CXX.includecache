@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/kyuyeong/Desktop/receiver/src/main.cpp
+/home/kyuyeong/Desktop/CS495-Individual-Research/2.ZED-SDK-Camera-Streaming/receiver/src/main.cpp
 sl/Camera.hpp
 -
 opencv2/opencv.hpp
@@ -1455,20 +1455,6 @@ crt/host_defines.h
 /usr/local/cuda-10.0/include/crt/host_defines.h
 
 /usr/local/zed/include/sl/Camera.hpp
-sl_zed/Camera.hpp
--
-
-/usr/local/zed/include/sl_core/mapping/Mesh.hpp
-vector
--
-sl_core/utils/Core.hpp
--
-
-/usr/local/zed/include/sl_core/utils/Core.hpp
-sl_core/utils/types.hpp
--
-
-/usr/local/zed/include/sl_core/utils/types.hpp
 algorithm
 -
 chrono
@@ -1511,19 +1497,9 @@ cuda_runtime_api.h
 -
 device_launch_parameters.h
 -
-Windows.h
--
 unistd.h
 -
-
-/usr/local/zed/include/sl_zed/Camera.hpp
-sl_core/utils/Core.hpp
-/usr/local/zed/include/sl_zed/sl_core/utils/Core.hpp
-sl_core/mapping/Mesh.hpp
-/usr/local/zed/include/sl_zed/sl_core/mapping/Mesh.hpp
-sl_zed/defines.hpp
-/usr/local/zed/include/sl_zed/sl_zed/defines.hpp
-map
+vector
 -
 cuda.h
 -
@@ -1541,8 +1517,6 @@ sl/Camera.hpp
 -
 sl/Camera.hpp
 -
-
-/usr/local/zed/include/sl_zed/defines.hpp
-sl_core/utils/types.hpp
+sl/Camera.hpp
 -
 

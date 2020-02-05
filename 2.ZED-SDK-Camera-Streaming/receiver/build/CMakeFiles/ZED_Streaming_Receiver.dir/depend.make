@@ -154,9 +154,4 @@ CMakeFiles/ZED_Streaming_Receiver.dir/src/main.o: /usr/local/cuda-10.0/include/v
 CMakeFiles/ZED_Streaming_Receiver.dir/src/main.o: /usr/local/cuda-10.0/include/vector_functions.hpp
 CMakeFiles/ZED_Streaming_Receiver.dir/src/main.o: /usr/local/cuda-10.0/include/vector_types.h
 CMakeFiles/ZED_Streaming_Receiver.dir/src/main.o: /usr/local/zed/include/sl/Camera.hpp
-CMakeFiles/ZED_Streaming_Receiver.dir/src/main.o: /usr/local/zed/include/sl_core/mapping/Mesh.hpp
-CMakeFiles/ZED_Streaming_Receiver.dir/src/main.o: /usr/local/zed/include/sl_core/utils/Core.hpp
-CMakeFiles/ZED_Streaming_Receiver.dir/src/main.o: /usr/local/zed/include/sl_core/utils/types.hpp
-CMakeFiles/ZED_Streaming_Receiver.dir/src/main.o: /usr/local/zed/include/sl_zed/Camera.hpp
-CMakeFiles/ZED_Streaming_Receiver.dir/src/main.o: /usr/local/zed/include/sl_zed/defines.hpp
 

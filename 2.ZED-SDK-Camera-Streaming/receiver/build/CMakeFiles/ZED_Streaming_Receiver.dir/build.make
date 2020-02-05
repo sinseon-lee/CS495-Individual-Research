@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kyuyeong/Desktop/receiver
+CMAKE_SOURCE_DIR = /home/kyuyeong/Desktop/CS495-Individual-Research/2.ZED-SDK-Camera-Streaming/receiver
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kyuyeong/Desktop/receiver/build
+CMAKE_BINARY_DIR = /home/kyuyeong/Desktop/CS495-Individual-Research/2.ZED-SDK-Camera-Streaming/receiver/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ZED_Streaming_Receiver.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/ZED_Streaming_Receiver.dir/flags.make
 
 CMakeFiles/ZED_Streaming_Receiver.dir/src/main.o: CMakeFiles/ZED_Streaming_Receiver.dir/flags.make
 CMakeFiles/ZED_Streaming_Receiver.dir/src/main.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyuyeong/Desktop/receiver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ZED_Streaming_Receiver.dir/src/main.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ZED_Streaming_Receiver.dir/src/main.o -c /home/kyuyeong/Desktop/receiver/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kyuyeong/Desktop/CS495-Individual-Research/2.ZED-SDK-Camera-Streaming/receiver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ZED_Streaming_Receiver.dir/src/main.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ZED_Streaming_Receiver.dir/src/main.o -c /home/kyuyeong/Desktop/CS495-Individual-Research/2.ZED-SDK-Camera-Streaming/receiver/src/main.cpp
 
 CMakeFiles/ZED_Streaming_Receiver.dir/src/main.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ZED_Streaming_Receiver.dir/src/main.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyuyeong/Desktop/receiver/src/main.cpp > CMakeFiles/ZED_Streaming_Receiver.dir/src/main.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyuyeong/Desktop/CS495-Individual-Research/2.ZED-SDK-Camera-Streaming/receiver/src/main.cpp > CMakeFiles/ZED_Streaming_Receiver.dir/src/main.i
 
 CMakeFiles/ZED_Streaming_Receiver.dir/src/main.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ZED_Streaming_Receiver.dir/src/main.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyuyeong/Desktop/receiver/src/main.cpp -o CMakeFiles/ZED_Streaming_Receiver.dir/src/main.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyuyeong/Desktop/CS495-Individual-Research/2.ZED-SDK-Camera-Streaming/receiver/src/main.cpp -o CMakeFiles/ZED_Streaming_Receiver.dir/src/main.s
 
 CMakeFiles/ZED_Streaming_Receiver.dir/src/main.o.requires:
 
@@ -90,27 +90,11 @@ ZED_Streaming_Receiver_EXTERNAL_OBJECTS =
 
 ZED_Streaming_Receiver: CMakeFiles/ZED_Streaming_Receiver.dir/src/main.o
 ZED_Streaming_Receiver: CMakeFiles/ZED_Streaming_Receiver.dir/build.make
-ZED_Streaming_Receiver: /usr/local/zed/lib/libsl_input.so
-ZED_Streaming_Receiver: /usr/local/zed/lib/libsl_core.so
 ZED_Streaming_Receiver: /usr/local/zed/lib/libsl_zed.so
 ZED_Streaming_Receiver: /usr/lib/x86_64-linux-gnu/libopenblas.so
+ZED_Streaming_Receiver: /usr/lib/x86_64-linux-gnu/libusb-1.0.so
 ZED_Streaming_Receiver: /usr/lib/x86_64-linux-gnu/libcuda.so
 ZED_Streaming_Receiver: /usr/local/cuda-10.0/lib64/libcudart.so
-ZED_Streaming_Receiver: /usr/local/cuda-10.0/lib64/libnppial.so
-ZED_Streaming_Receiver: /usr/local/cuda-10.0/lib64/libnppisu.so
-ZED_Streaming_Receiver: /usr/local/cuda-10.0/lib64/libnppicc.so
-ZED_Streaming_Receiver: /usr/local/cuda-10.0/lib64/libnppicom.so
-ZED_Streaming_Receiver: /usr/local/cuda-10.0/lib64/libnppidei.so
-ZED_Streaming_Receiver: /usr/local/cuda-10.0/lib64/libnppif.so
-ZED_Streaming_Receiver: /usr/local/cuda-10.0/lib64/libnppig.so
-ZED_Streaming_Receiver: /usr/local/cuda-10.0/lib64/libnppim.so
-ZED_Streaming_Receiver: /usr/local/cuda-10.0/lib64/libnppist.so
-ZED_Streaming_Receiver: /usr/local/cuda-10.0/lib64/libnppitc.so
-ZED_Streaming_Receiver: /usr/local/cuda-10.0/lib64/libcublas.so
-ZED_Streaming_Receiver: /usr/local/cuda-10.0/lib64/libcurand.so
-ZED_Streaming_Receiver: /usr/local/cuda-10.0/lib64/libcublas.so
-ZED_Streaming_Receiver: /usr/local/cuda-10.0/lib64/libcurand.so
-ZED_Streaming_Receiver: /usr/local/cuda-10.0/lib64/libnpps.so
 ZED_Streaming_Receiver: /usr/lib/x86_64-linux-gnu/libopencv_dnn.so.4.1.1
 ZED_Streaming_Receiver: /usr/lib/x86_64-linux-gnu/libopencv_gapi.so.4.1.1
 ZED_Streaming_Receiver: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.4.1.1
@@ -127,7 +111,7 @@ ZED_Streaming_Receiver: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.4.1.1
 ZED_Streaming_Receiver: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.1.1
 ZED_Streaming_Receiver: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.1.1
 ZED_Streaming_Receiver: CMakeFiles/ZED_Streaming_Receiver.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kyuyeong/Desktop/receiver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ZED_Streaming_Receiver"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kyuyeong/Desktop/CS495-Individual-Research/2.ZED-SDK-Camera-Streaming/receiver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ZED_Streaming_Receiver"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ZED_Streaming_Receiver.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -144,6 +128,6 @@ CMakeFiles/ZED_Streaming_Receiver.dir/clean:
 .PHONY : CMakeFiles/ZED_Streaming_Receiver.dir/clean
 
 CMakeFiles/ZED_Streaming_Receiver.dir/depend:
-	cd /home/kyuyeong/Desktop/receiver/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kyuyeong/Desktop/receiver /home/kyuyeong/Desktop/receiver /home/kyuyeong/Desktop/receiver/build /home/kyuyeong/Desktop/receiver/build /home/kyuyeong/Desktop/receiver/build/CMakeFiles/ZED_Streaming_Receiver.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kyuyeong/Desktop/CS495-Individual-Research/2.ZED-SDK-Camera-Streaming/receiver/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kyuyeong/Desktop/CS495-Individual-Research/2.ZED-SDK-Camera-Streaming/receiver /home/kyuyeong/Desktop/CS495-Individual-Research/2.ZED-SDK-Camera-Streaming/receiver /home/kyuyeong/Desktop/CS495-Individual-Research/2.ZED-SDK-Camera-Streaming/receiver/build /home/kyuyeong/Desktop/CS495-Individual-Research/2.ZED-SDK-Camera-Streaming/receiver/build /home/kyuyeong/Desktop/CS495-Individual-Research/2.ZED-SDK-Camera-Streaming/receiver/build/CMakeFiles/ZED_Streaming_Receiver.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ZED_Streaming_Receiver.dir/depend
 

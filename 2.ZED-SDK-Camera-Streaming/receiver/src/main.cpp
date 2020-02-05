@@ -27,7 +27,7 @@ int main(int argc, char **argv) {
 
     // Set configuration parameters for the ZED
     InitParameters initParameters;
-    initParameters.depth_mode = DEPTH_MODE_NONE;
+    initParameters.depth_mode = DEPTH_MODE::ULTRA;
     initParameters.camera_fps = 60;
     initParameters.sdk_verbose = true;
 
@@ -45,7 +45,7 @@ int main(int argc, char **argv) {
     // Open the camera
     ERROR_CODE zed_error = zed.open(initParameters);
 
-    if (zed_error != SUCCESS) {// Quit if an error occurred
+    if (zed_error != ERROR_CODE::SUCCESS) {// Quit if an error occurred
         cout << zed_error << endl;
         zed.close();
         return 1;
@@ -57,12 +57,12 @@ int main(int argc, char **argv) {
     char key = ' ';
     while (key != 'q') {
 	// Check that grab() is successful
-        if (zed.grab() == SUCCESS) {
+        if (zed.grab() == ERROR_CODE::SUCCESS) {
 	    // Retrieve image
-            zed.retrieveImage(zed_image, VIEW_SIDE_BY_SIDE);
+            zed.retrieveImage(zed_image, VIEW::SIDE_BY_SIDE);
 
             // Display image with OpenCV
-            cv::imshow("VIEW", cv::Mat((int) zed_image.getHeight(), (int) zed_image.getWidth(), CV_8UC4, zed_image.getPtr<sl::uchar1>(sl::MEM_CPU)));
+            cv::imshow("VIEW", cv::Mat((int) zed_image.getHeight(), (int) zed_image.getWidth(), CV_8UC4, zed_image.getPtr<sl::uchar1>(sl::MEM::CPU)));
 
             key = cv::waitKey(10);
 
